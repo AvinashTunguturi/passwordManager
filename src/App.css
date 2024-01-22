@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container{
+  background-image: linear-gradient(to bottom, #9ba9eb,#c3caea);
+  padding: 30px;
+}
+.logo-image{
+  width: 160px;  
+}
+.top-section{
+  background-color: #5763a5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.form-container{
+  width: 800px;
+  padding: 20px;
+  background-color: #454f84;
+  padding: 40px;
+  border-radius: 10px;
+}
+.form-heading{
+  color:#f8fafc ;
+}
+
+.submit{
+  background-color: #0b69ff;
+  border-style: none;
+  border-radius: 2px;
+  color: #f8fafc;
+  padding: 10px;
+  width: 60px;
+}
+.input-container{
+  display: flex;
+  background-color: #f8fafc;
+  margin-bottom: 8px;
+  width: 95%;
+  border-radius: 4px;
+  margin: 16px;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-left: 4px;
+}
+.input-field{
+  border-style: none;
+  margin-left: 6px;
+  height: 40px;
+  width: 90%;
+}
+.add-button{
+  display: flex;
+  justify-content: flex-end;
+}
+.password-image{
+  width: 40%;
+}
+.bottom-section{
+  background-color: #5763a5;
+  border-radius: 10px;
+}
